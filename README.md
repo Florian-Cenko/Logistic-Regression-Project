@@ -1,27 +1,30 @@
-# Linear-Regression-Project
-This project focuses on applying **Linear Regression** to analyze customer behavior for an **Ecommerce company based in New York City**.
-The company sells clothing online and also offers in-store style and clothing advice sessions.
-Customers can visit the store for consultations, then purchase clothing later through the **mobile app** or **website**.
+# Logistic-Regression-Project
+This project applies **Logistic Regression** to predict whether an internet user will click on an online advertisement based on their browsing behavior and demographic information.
+It uses a **synthetic (fake)** advertising dataset provided for educational purposes as part of the Python for Data Science and Machine Learning Bootcamp.
 
-The goal of this project is to determine whether the company should focus more on improving its mobile app or website experience, based on customer usage data.
+The main objective is to build a classification model that distinguishes between users who **clicked on an ad (1) and those who did not (0).**
 
 ## Dataset Description
-The dataset contains anonymized customer information related to their interactions with the ecommerce platform.
-Each row represents a customer and includes metrics about time spent on different channels and purchase behavior.
+The dataset contains various user behavior and demographic attributes, along with a binary target variable (Clicked on Ad).
 
-## Objectives
-- Perform exploratory data analysis (EDA) to understand key features and relationships
-- Build a **Linear Regression** model to predict yearly spending based on user activity
-- Determine which platform (mobile app or website) drives higher customer value
-- Provide actionable insights for marketing and product strategy teams
-
+## Features
+- **Daily Time Spent on Site:** Time (in minutes) the consumer spends on the website per day
+- **Age:** Customer age in years
+- **Area Income:** Average income of the consumer’s geographical area
+- **Daily Internet Usage:** Average daily minutes the user spends online
+- **Ad Topic Line:** Headline of the advertisement
+- **City:** City of the consumer
+- **Male:** 1 if male, 0 if female
+- **Country:** Country of the consumer
+- **Timestamp:** Time when the user clicked on the ad or closed the page
+- **Clicked on Ad:** Target variable — 1 if the user clicked, 0 otherwise
   
-## Dataset Fields (example columns)
-- **Avg. Session Length:** Average session duration in minutes
-- **Time on App:** Average time spent on the mobile app
-- **Time on Website:** Average time spent on the website
-- **Length of Membership:** Years as a customer
-- **Yearly Amount Spent:** Annual spending in USD (target variable)
+## Objectives
+-Explore and clean the dataset
+-Perform **Exploratory Data Analysis (EDA)** with visualizations
+-Train a **Logistic Regression** model to predict ad-click probability
+-Evaluate model performance using accuracy, confusion matrix, and classification report
+-Gain insights into which user attributes influence ad engagements
   
 ## Tech Stack
 - Python
@@ -41,11 +44,10 @@ pip install <name of libraries>
 ```
 3. Run the main Python script:
  ```bash
-python linear_regression_project.py
+python logistic_regression_project.py
 ```
 
 ## Notes
-- The dataset is fictional and used only for educational purposes
-- Focuses on understanding model interpretation and regression diagnostics
-- Great practice for beginners learning **machine learning** and **data analysis**
-
+- The dataset is **synthetic** and meant for **educational use only**
+- Focuses on **binary classification** and understanding model interpretation
+- A great introduction to **Logistic Regression** and predictive modeling with Python

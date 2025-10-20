@@ -20,11 +20,11 @@ The dataset contains various user behavior and demographic attributes, along wit
 - **Clicked on Ad:** Target variable — 1 if the user clicked, 0 otherwise
   
 ## Objectives
--Explore and clean the dataset
--Perform **Exploratory Data Analysis (EDA)** with visualizations
--Train a **Logistic Regression** model to predict ad-click probability
--Evaluate model performance using accuracy, confusion matrix, and classification report
--Gain insights into which user attributes influence ad engagements
+- Explore and clean the dataset
+- Perform **Exploratory Data Analysis (EDA)** with visualizations
+- Train a **Logistic Regression** model to predict ad-click probability
+- Evaluate model performance using accuracy, confusion matrix, and classification report
+- Gain insights into which user attributes influence ad engagements
   
 ## Tech Stack
 - Python
